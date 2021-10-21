@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(173, 204, 102, 0.9);
+  }
+
+.header-logo {
+    font-size: 23px;
+    float: left;
+    padding: 18px 15px;
+    color:rgb(77, 102, 8);
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding:0 25px;
+    color: rgb(77, 102, 8);
+    display: block;
+}
+
+.produk{
+    float:right;
+    color:rgb(77, 102, 8);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
+.belanja {
+    float:right;
+    color:rgb(77, 102, 8);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 10px;
+    padding-left: 30px
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'popins', sans-serif;
+  }
+  footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color:green;
+  }
+  .main{
+    display: flex;
+  }
+  .main .box{
+    flex-basis:50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+  }
